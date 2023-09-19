@@ -6,6 +6,24 @@
 
 The Project Template Generator Script is a handy tool designed to simplify the initial setup of your new projects. It automates the creation of directories and files commonly used in software development, helping you maintain a consistent project structure and save time on repetitive tasks.
 
+## The structure is organized as follows:
+
+- `.github/workflows/`: GitHub Actions workflow configuration files.
+- `src/`: Source code directory containing Python modules for the deep learning model.
+- `tests/`: Unit and integration test cases and test data.
+- `configs/`: Configuration files, including `config.yaml` for model hyperparameters.
+- `dvc.yaml`: Data version control configuration for managing dataset versions.
+- `params.yaml`: Hyperparameters and configuration.
+- `init_setup.sh`: Initialization script for setting up the project.
+- `requirements.txt`: Python package dependencies.
+- `requirements_dev.txt`: Development-specific dependencies.
+- `setup.py`: Python package setup script.
+- `setup.cfg`: Configuration for package distribution.
+- `pyproject.toml`: Project metadata.
+- `tox.ini`: Configuration for testing environments.
+- `research/`: Research-related files, including a Jupyter Notebook for experiments (`trials.ipynb`).
+
+
 ## Features
 
 - **Effortless Project Initialization**: With a single command, you can quickly create the foundational structure for your projects, eliminating the need to set up directories and files manually.
